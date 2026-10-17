@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "house-price-prediction"
+version = "0.1.0"
+description = "Kaggle House Prices: Advanced Regression Techniques"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy", "pandas", "matplotlib", "seaborn", "scikit-learn", "xgboost"]
+[tool.setuptools.packages.find]
+where = ["src"]

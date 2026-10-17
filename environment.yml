@@ -1,0 +1,14 @@
+name: house-price-prediction
+channels:
+  - defaults
+dependencies:
+  - pytest
+  - seaborn
+  - scikit-learn
+  - ipykernel
+  - pandas
+  - python=3.11
+  - numpy
+  - jupyter
+  - matplotlib
+  - xgboost
